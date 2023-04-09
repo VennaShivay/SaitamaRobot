@@ -102,7 +102,7 @@ And the following:
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://drive.google.com/file/d/1V7UyARojCIq7PVTp2rhofvfOQPUQgyFQ/view?usp=sharing"
+SAITAMA_IMG = "https://i.imgur.com/BL48rMe.gif"
 
 #DONATE_STRING = """Heya, glad to hear you want to donate!
 #Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
                     [
                         InlineKeyboardButton(
-                            text="☑️ Add Ghosty to your group",
+                            text="☑️ Add CYBER-ASTRA to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username),
                         )
@@ -236,11 +236,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="CONTACT OWNER",
-                            url=f"https://t.me/i_am_your_ghost",
+                            url=f"https://t.me/PilotGalaxy",
                         ),
                         #InlineKeyboardButton(
                          #   text="🔔 Updates Channel",
-                         #   url="https://t.me/OnePunchUpdates",
+                         #   url="https://t.me/PilotChoice",
                         #),
                     ],
                     #[
