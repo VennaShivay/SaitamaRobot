@@ -9,7 +9,7 @@
          "CYBER",
          "ASTRA"
       ],   
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+   "repository": "https://github.com/VennaShivay/SaitamaRobot",
    "addons": [
       {
          "options": {
@@ -78,7 +78,7 @@
          "required": false,
          "value": ""
       },
-      "sw_api": {
+      "SW_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
          "value": ""
