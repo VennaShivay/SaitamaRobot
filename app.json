@@ -36,8 +36,8 @@
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
-         "value": "postgres://shivanagz:TnJyCAgorZwjOp6Lbu1E0jqNGtj2opL7@dpg-cf9p7n1a6gdtmi737360-a.singapore-postgres.render.com/saitamadb"
+         "required": true,
+         "value": "mongodb+srv://shivanagz:shivanagzsaitamadb@saitamadb.mbds32c.mongodb.net/?retryWrites=true&w=majority"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
