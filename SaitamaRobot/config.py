@@ -36,7 +36,7 @@ class Config(object):
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
-    URL = None
+    URL = https://i.imgur.com/2U2SbFp.jpeg
     SPAMWATCH_API = "VNQHaQdcjVqhdk4~CjUQStHzwsK3kFu4sv3cxkanmQAGRkELOfKNDQHQ6vc0cfE3"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     WEATHER_API = "0f70542f581639c3737e62b8e22f2761"  # go to openweathermap.org/api to get key
