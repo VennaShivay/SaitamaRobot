@@ -30,7 +30,7 @@ class Config(object):
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://shivanagz:TnJyCAgorZwjOp6Lbu1E0jqNGtj2opL7@dpg-cf9p7n1a6gdtmi737360-a.singapore-postgres.render.com/saitamadb"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://shivanagz:shivanagzsaitamadb@saitamadb.mbds32c.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     DB_NAME = "saitamadb"  # needed for cron_jobs module, use same databasename from SQLALCHEMY_DATABASE_URI
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
